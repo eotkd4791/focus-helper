@@ -17,12 +17,18 @@ importers:
       '@commitlint/cz-commitlint':
         specifier: ^18.4.3
         version: 18.4.3(commitizen@4.3.0)(inquirer@8.2.6)(typescript@5.3.3)
+      '@types/check-types':
+        specifier: ^11.2.2
+        version: 11.2.2
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.16.0
         version: 6.16.0(@typescript-eslint/parser@6.16.0)(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/parser':
         specifier: ^6.16.0
         version: 6.16.0(eslint@8.56.0)(typescript@5.3.3)
+      check-types:
+        specifier: ^11.2.3
+        version: 11.2.3
       commitizen:
         specifier: ^4.3.0
         version: 4.3.0(typescript@5.3.3)
@@ -1965,6 +1971,10 @@ packages:
       '@types/node': 20.10.6
     dev: true
 
+  /@types/check-types@11.2.2:
+    resolution: {integrity: sha512-PCpqdZdBZtjGxkNUFNVmchydRUI5s/v/7xpTaf99vR47MQy///mmoffQ6b3J31zDt74LzW08kcIkN5PfxHbq2w==}
+    dev: true
+
   /@types/connect@3.4.38:
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
     dependencies:
@@ -2876,6 +2886,10 @@ packages:
 
   /chardet@0.7.0:
     resolution: {integrity: sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==}
+    dev: true
+
+  /check-types@11.2.3:
+    resolution: {integrity: sha512-+67P1GkJRaxQD6PKK0Et9DhwQB+vGg3PM5+aavopCpZT1lj9jeqfvpgTLAWErNj8qApkkmXlu/Ug74kmhagkXg==}
     dev: true
 
   /chokidar@3.5.3:
