@@ -1,35 +1,35 @@
 {
-	"name": "focus-helper",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"shared": "pnpm -F @fh/shared",
-		"web": "pnpm -F @fh/web",
-		"api": "pnpm -F @fh/api",
-		"dev": "pnpm -r dev",
-		"commit": "cz"
-	},
-	"keywords": [],
-	"author": "daesang you",
-	"license": "ISC",
-	"devDependencies": {
-		"@commitlint/cli": "^18.4.3",
-		"@commitlint/config-conventional": "^18.4.3",
-		"@commitlint/cz-commitlint": "^18.4.3",
-		"@types/check-types": "^11.2.2",
-		"@typescript-eslint/eslint-plugin": "^6.16.0",
-		"@typescript-eslint/parser": "^6.16.0",
-		"check-types": "^11.2.3",
-		"commitizen": "^4.3.0",
-		"cz-conventional-changelog": "^3.3.0",
-		"eslint": "^8.56.0",
-		"eslint-config-prettier": "^9.0.0",
-		"eslint-plugin-prettier": "^5.0.0",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"eslint-plugin-react-refresh": "^0.4.5",
-		"husky": "^8.0.3",
-		"lint-staged": "^15.2.0",
-		"prettier": "^3.0.0"
-	}
+  "name": "focus-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "shared": "pnpm -F @fh/shared",
+    "web": "pnpm -F @fh/web",
+    "api": "pnpm -F @fh/api",
+    "dev": "pnpm -r dev",
+    "commit": "cz"
+  },
+  "keywords": [],
+  "author": "daesang you",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/cz-commitlint": "^18.4.3",
+    "@types/check-types": "^11.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "check-types": "^11.2.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.0.0"
+  }
 }
